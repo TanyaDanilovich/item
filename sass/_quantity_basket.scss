@@ -1,0 +1,66 @@
+.quantity_icon {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: calc(50% - 5px);
+	left: calc(50% - 5px);
+}
+
+.quantity_change {
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	padding: 17px;
+	width: 40px;
+	height: 100%;
+	display: block;
+	background: $color-white;
+
+	&:hover {
+		background: $color-gray-200;
+	}
+
+	&:active {
+		background: $color-light;
+	}
+}
+
+.product-quantity__container {
+	//max-width: 120px;
+	position: relative;
+	display: inline-flex;
+}
+
+.quantity__num__input {
+	border: none;
+	width: 120px;
+	text-align: center;
+	line-height: 100%;
+	font-size: 1.5rem;
+	color: $color-gray-700;
+	font-weight: 300;
+	padding: 0 25px;
+	background: $color-white;
+}
+
+.quantity__minus {
+	left: 0;
+}
+
+.quantity__plus {
+	right: 0;
+}
+
+.add-to-card-button {
+	width: calc(100% - 120px - 10px);
+
+
+	padding: 11.5px;
+}
+
+.quantity-basket {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}

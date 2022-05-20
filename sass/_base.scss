@@ -1,0 +1,27 @@
+.wrapper {
+	padding: 0 20px;
+	max-width: $tablet-width;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+html {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	padding: 10px;
+}

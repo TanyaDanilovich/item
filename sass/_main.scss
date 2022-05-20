@@ -1,0 +1,42 @@
+.main-categories__container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+	margin-top: 20px;
+}
+
+.main-categories {
+	padding: 20px 0;
+	color: white;
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: 0.3%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+.clothes {
+	background: $clothes-color;
+}
+
+.shoes {
+	background: $shoes-color;
+}
+
+.accessories {
+	background: $accessories-color;
+}
+
+.beauty-health {
+	background: $beauty-and-health-color;
+}
+
+.house {
+	background: $house-color;
+}
+
+.other {
+	background: $other-color;
+}

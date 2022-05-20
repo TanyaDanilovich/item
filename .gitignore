@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+style.scss
+package-lock.json
+.gitignore
+style.css.map
+package.json
+
+Презентация_логотипа_и_навигации.pdf

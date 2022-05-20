@@ -1,0 +1,24 @@
+.product__content__container {
+	margin-top: 20px;
+}
+
+.product__title {
+	margin: 3rem 0 1.5rem;
+	font-weight: 400;
+	text-align: left;
+}
+
+.price__container {
+	padding: 5px 0 20px;
+	font-size: 1.6rem;
+	color: $color-gray-700;
+}
+
+.add-to-card-button {
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid $color-gray-300;
+	font-size: 1.6rem;
+	color: $color-white;
+	font-weight: 700;
+}

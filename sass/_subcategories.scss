@@ -1,0 +1,27 @@
+.sub-categories__content {
+	padding: 10px 0;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: 600;
+	letter-spacing: 0.3%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	//background: $other-color;
+}
+
+.sub-categories__container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+h1 {
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.categories__title {
+	text-align: center;
+}
